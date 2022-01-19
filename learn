@@ -1,1 +1,26 @@
+1.
+const App = () => {
+  return (                      
+  //in the root level only one fragment can return so we use <> </> symbole
+    <>
+      <StatusBar barStyle="dark-content" backgroundColor="deepskyblue"/>
+      <View style = {{flex:1,backgroundColor:"green"}} >
+        <Text> hello </Text>
+      </View>
 
+    </>
+  );
+};
+
+2.
+
+//inline css in react native
+<View style = {{flex:1,backgroundColor:"green"}} >
+    <Text> hello </Text>
+</View>
+
+3.
+
+// how to traversing path in js file
+./  means current folder
+../ means previous folder of current folder
